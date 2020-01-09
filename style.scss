@@ -5,6 +5,7 @@ $blanc : white; //un peu de français dans toute cette mondialisation
 
 body{
     background-color:#353536;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 
@@ -41,12 +42,20 @@ li{
 .logo{
    
     width: 60px;
+    display: flex;
+    align-items: center;
+}
+.triangle-2{
+    position: absolute;
+    right: 500px;
+
+    img{
+        height: 200px;
+    }
 }
 
-
-.logo-1{
-    background-image:url(images/Composant1–1.png);
-    background-size: cover;
+.logo-1 img{
+    background-size: contain;
     height: 83px;
     width: 83px;
  }
@@ -56,6 +65,8 @@ li{
 
 .text-logo{
     color: $blanc;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 
@@ -124,25 +135,62 @@ button{
 
 .block-2{
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
 }
 
 .text-2{
     width: 400px;
+
+
+p{
+    color: grey;
+}
+
+
 }
 
 
 h3{
+
     @extend .text-logo;
 }
 
-.grp-btn-1{
-
-
+.grp-icone{
 display: flex;
-}
+flex-direction: column;
+align-items: center;
 
-
-.grp-btn-1 img{
-height: 10px;
+img{
+height: 30px;
+background-color:#1c1c1d ;
+background-size: contain;
+padding: 20px 20px;
+border-radius: 10px;
+@include lueur-noir;
+margin-left: 20px;
+margin-top: 20px;
     }
 
+}
+
+.puma{
+    margin-top: 20px;
+}
+
+.nike{
+    margin-top: 40px;
+}
+
+.aws{
+    margin-right: 30px;
+    margin-top: 70px;
+}
+.apple{
+    margin-left: 40px;
+}
+.microsoft{
+margin-right: 40px;
+}

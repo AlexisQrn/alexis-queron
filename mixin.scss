@@ -5,3 +5,11 @@ zoom:1;
 box-shadow: 1px 1px 40px 2px #ce4ece;
 -moz-border-radius:10px;
 -webkit-border-radius:10px;}
+
+@mixin lueur-noir{
+    -webkit-box-shadow: 1px 1px 30px 10px #4c4c4c;
+-moz-box-shadow: 1px 1px 30px 10px #4c4c4c;
+filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=1, OffY=1, Color='#4c4c4c', Positive='true');
+zoom:1;
+box-shadow: 1px 1px 30px 10px #4c4c4c;
+}
