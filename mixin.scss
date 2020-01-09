@@ -1,0 +1,7 @@
+@mixin lueur{-webkit-box-shadow: 1px 1px 40px 2px #ce4ece;
+-moz-box-shadow: 1px 1px 40px 2px #ce4ece;
+filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=1, OffY=1, Color='#ce4ece', Positive='true');
+zoom:1;
+box-shadow: 1px 1px 40px 2px #ce4ece;
+-moz-border-radius:10px;
+-webkit-border-radius:10px;}

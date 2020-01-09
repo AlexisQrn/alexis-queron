@@ -1,0 +1,148 @@
+$blanc : white; //un peu de français dans toute cette mondialisation
+
+@import "mixin.scss";
+
+
+body{
+    background-color:#353536;
+}
+
+
+
+.nav ul{
+    display: flex;
+    justify-content: flex-end;
+li{
+    color: rgb(90, 96, 122);
+    list-style: none;
+    margin-right: 40px;
+}
+}
+
+#contact{
+    
+    color:$blanc;
+    border:1px solid #CCCCCC;
+    border-radius: 10%;
+    padding:2px ;
+
+}
+
+
+.nav{
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+.logo{
+   
+    width: 60px;
+}
+
+
+.logo-1{
+    background-image:url(images/Composant1–1.png);
+    background-size: cover;
+    height: 83px;
+    width: 83px;
+ }
+
+
+
+
+.text-logo{
+    color: $blanc;
+}
+
+
+.block-1{
+display:flex;
+justify-content: center;
+margin-top: 100px ;
+align-content: center;
+
+}
+
+.mockup img{
+    width: 700px;
+    background-size: contain;
+}
+
+
+
+
+.text-1{
+    width: 25%;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+
+h2{
+    color: $blanc;
+
+}
+p{
+    color: grey;
+}
+
+
+}
+
+.triangle-1 img{
+    position: absolute;
+    right: 1083px;
+    height: 140px;
+    top: 120px;
+}
+
+.grp-btn-1{
+    margin-top: 20px;
+
+button{
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+}}
+
+#prix{
+    background: linear-gradient(90deg, blue, rgb(129, 23, 124));
+    border:none;
+    @include lueur;
+}
+#start{
+    background-color:#353536 ;
+}
+
+
+.block-2{
+    display: flex;
+}
+
+.text-2{
+    width: 400px;
+}
+
+
+h3{
+    @extend .text-logo;
+}
+
+.grp-btn-1{
+
+
+display: flex;
+}
+
+
+.grp-btn-1 img{
+height: 10px;
+    }
+
